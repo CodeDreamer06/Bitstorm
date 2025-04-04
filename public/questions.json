@@ -1,0 +1,72 @@
+[
+  {
+    "id": "phy_kin_pp21_q1",
+    "subject": "Physics",
+    "topic": "Kinematics",
+    "source": "Past Paper 2021",
+    "questionText": "A particle starts from rest and accelerates uniformly at 2 m/s² for 5 seconds. What is its final velocity?",
+    "options": ["5 m/s", "10 m/s", "15 m/s", "20 m/s"],
+    "correctOptionIndex": 1,
+    "solution": "Using $v = u + at$, where $u=0$, $a=2$, $t=5$. \n$v = 0 + (2)(5) = 10\\text{ m/s}$."
+  },
+  {
+    "id": "phy_wpe_tb3_q5",
+    "subject": "Physics",
+    "topic": "Work, Power, Energy",
+    "source": "Textbook Ch3",
+    "questionText": "Calculate the kinetic energy of a 5 kg mass moving at 4 m/s.",
+    "options": ["10 J", "20 J", "40 J", "80 J"],
+    "correctOptionIndex": 2,
+    "solution": "$KE = \\frac{1}{2} \\cdot m \\cdot v^2$. \n$KE = 0.5 \\times 5 \\times (4)^2 = 0.5 \\times 5 \\times 16 = 40\\text{ J}$."
+  },
+  {
+    "id": "math_calc_tut1_q2",
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "source": "Tutorial Sheet 1",
+    "questionText": "What is the derivative of $x^3 + 2x - 5$?",
+    "options": ["$3x^2 + 2$", "$x^2 + 2$", "$3x^2$", "$3x^2 + 2x$"],
+    "correctOptionIndex": 0,
+    "solution": "$\\frac{d}{dx}(x^3) = 3x^2$, $\\frac{d}{dx}(2x) = 2$, $\\frac{d}{dx}(-5) = 0$. \nSumming them gives $3x^2 + 2$."
+  },
+  {
+    "id": "chem_oc_ex2_q8",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "source": "Exercise Set 2",
+    "questionText": "What is the functional group in $\\text{CH}_3\\text{COOH}$?",
+    "options": ["Alcohol", "Aldehyde", "Ketone", "Carboxylic Acid"],
+    "correctOptionIndex": 3,
+    "solution": "The $-\\text{COOH}$ group is characteristic of a carboxylic acid (acetic acid in this case)."
+  },
+  {
+    "id": "math_alg_rs22_q3",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "source": "Reference Sheet 2022",
+    "questionText": "Solve for x: $2x^2 - 5x - 3 = 0$",
+    "options": ["$x = 3, x = -0.5$", "$x = -3, x = 0.5$", "$x = 3, x = 0.5$", "$x = -3, x = -0.5$"],
+    "correctOptionIndex": 0,
+    "solution": "Using the quadratic formula: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ where $a=2$, $b=-5$, $c=-3$. \n$x = \\frac{5 \\pm \\sqrt{25 + 24}}{4} = \\frac{5 \\pm \\sqrt{49}}{4} = \\frac{5 \\pm 7}{4}$. \nThis gives $x = 3$ or $x = -0.5$."
+  },
+  {
+    "id": "chem_therm_lec7_q2",
+    "subject": "Chemistry",
+    "topic": "Thermodynamics",
+    "source": "Lecture 7",
+    "questionText": "Which of the following processes always has a positive entropy change?",
+    "options": ["Freezing water", "Condensation of vapor", "Dissolution of salt in water", "Formation of a crystal lattice"],
+    "correctOptionIndex": 2,
+    "solution": "Dissolution of salt in water increases disorder as the organized salt crystal breaks apart into ions dispersed throughout the solution, increasing entropy ($\\Delta S > 0$)."
+  },
+  {
+    "id": "phy_em_qb24_q5",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "source": "Question Bank 2024",
+    "questionText": "A charged particle moves perpendicular to a uniform magnetic field. Its path will be:",
+    "options": ["Parabolic", "Circular", "Helical", "Straight line"],
+    "correctOptionIndex": 1,
+    "solution": "When a charged particle moves perpendicular to a magnetic field, it experiences a force perpendicular to both its velocity and the field ($\\vec{F} = q\\vec{v} \\times \\vec{B}$). This creates a centripetal force causing circular motion."
+  }
+] 
